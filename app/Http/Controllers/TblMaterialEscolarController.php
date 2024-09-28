@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\models\tblMaterialEscolar;
-use Illuminate\Suport\Facades\Redirect;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validate;
 
 class TblMaterialEscolarController extends Controller
@@ -30,10 +30,12 @@ class TblMaterialEscolarController extends Controller
             'nomeMaterial' =>'string|required',
             'categoriaMaterial' =>'string|required',
             'dataCompraMaterial' =>'date|required',
-            'preçoMaterial' =>'decimal|required'
+            'precoMaterial' =>'string|required'
         ]);
 
+        
+
         TblMaterialEscolar::create($registros);
-        return Redirect::route(home-adm);
+        return Redirect::route('home-adm');
     }
 }

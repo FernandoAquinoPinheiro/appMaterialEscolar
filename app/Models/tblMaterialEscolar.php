@@ -13,7 +13,7 @@ class tblMaterialEscolar extends Model
         'nomeMaterial',
         'categoriaMaterial',
         'dataCompraMaterial',
-        'preçoMaterial'
+        'precoMaterial'
     ];
     
 

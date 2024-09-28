@@ -21,9 +21,11 @@
             </div>
             <div class="form-group">
                 <label for="preco">Preço (R$)</label>
-                <input type="number" class="form-control" id="preco" name="preco" placeholder="Digite o preço" step="0.01" required>
+                <input type="number" class="form-control" id="precoMaterial" name="precoMaterial" placeholder="Digite o preço" step="0.01" required>
             </div>
+            <div class="text-center">
             <button type="submit" class="btn btn-primary">Cadastrar Material</button>
+            </div>
         </form>
     </div>
 

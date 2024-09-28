@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nomeMaterial');
             $table->string('categoriaMaterial');
             $table->date('dataCompraMaterial');
-            $table->decimal('preço',7,2);
+            $table->string('precoMaterial');
             $table->timestamps();
         });
     }

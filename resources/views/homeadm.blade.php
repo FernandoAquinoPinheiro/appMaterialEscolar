@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
 
-<figure>
+<figure class="text-center">
     <img src="assets/material.png"/>
 </figure>
 @endsection
