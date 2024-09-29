@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-    color: #007bff; /* Cor azul para títulos */
+    color: rgb(72, 65, 65);
     margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
@@ -19,12 +19,25 @@ h2 {
     font-size: 25px;
     margin: 10px;
 }
+
+.nav-link {
+    transition: background-color 0.2s ease, color 0.2s ease; /* Animações suaves */
+}
+
+.nav-link:hover {
+    background-color: #e2e6ea; /* Cor de fundo ao passar o mouse */
+    color: #99c2ee; /* Cor do texto ao passar o mouse */
+}
+
+
+
 .centered-image {
     display: block; /* Faz a imagem ser um bloco */
     margin-left: auto; /* Margem esquerda automática */
     margin-right: auto; /* Margem direita automática */
     width: 200px; /* Ajuste o tamanho conforme necessário */
     height: auto; /* Manter a proporção */
+    
 }
 
 
@@ -49,9 +62,32 @@ h2 {
    
 }
 .text-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  
+     
+    margin-top: 70px;
+    margin-right: 500px; 
+
+    float: right;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombreamento */
+    border-radius: 5px; /* Opcional: bordas arredondadas */
   
 }
+.article {
+    padding-left: 120px;
+    margin-top: 70px;
+    float: left;
+    width: 30%; /* Aumente ou diminua conforme necessário */
+    margin-right: 10px; 
+}
 
+.container-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.into{
+    color: rgb(72, 65, 65); /* Cor azul para títulos */
+}

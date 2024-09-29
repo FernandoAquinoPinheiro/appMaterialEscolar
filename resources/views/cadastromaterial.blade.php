@@ -23,7 +23,7 @@
                 <label for="preco">Preço (R$)</label>
                 <input type="number" class="form-control" id="precoMaterial" name="precoMaterial" placeholder="Digite o preço" step="0.01" required>
             </div>
-            <div class="text-center">
+            <div class="container-button">
             <button type="submit" class="btn btn-primary">Cadastrar Material</button>
             </div>
         </form>
